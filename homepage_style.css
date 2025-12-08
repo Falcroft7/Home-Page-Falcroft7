@@ -46,12 +46,12 @@ h1, h2, h3 {
 
 /* Images pour boutons */
 .card-cartomancie {
-    background-image: url('../Images/Cartomancie.png');
+    background-image: url('Images/Cartomancie.png');
     background-size: cover;
     background-position: center;
 }
 .card-dnd {
-    background-image: url('../Images/DnD.png');
+    background-image: url('Images/DnD.png');
     background-size: cover;
     background-position: center;
 }
@@ -61,4 +61,5 @@ h1, h2, h3 {
     position: relative;
     z-index: 10;
 }
+
 
