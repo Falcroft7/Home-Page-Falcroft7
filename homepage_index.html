@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portail Personnel - Falcroft7</title>
+  <link rel="stylesheet" href="homepage_style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="app">
+    <!-- Le contenu sera généré par JS -->
+  </div>
+</body>
+</html>
+
+
+<body class="min-h-screen flex flex-col items-center justify-center p-4 bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900">
+
+    <!-- En-tête / Profil -->
+    <header class="text-center mb-12 animate-fade-in-down">
+        <div class="w-24 h-24 mx-auto bg-gradient-to-tr from-amber-400 to-purple-600 rounded-full p-1 shadow-lg mb-4">
+            <!-- Placeholder pour un avatar (optionnel) -->
+            <div class="w-full h-full bg-slate-800 rounded-full flex items-center justify-center overflow-hidden">
+                <i class="fas fa-user-astronaut text-4xl text-slate-300"></i>
+            </div>
+        </div>
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-2 text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">
+            Bienvenue
+        </h1>
+        <p class="text-slate-400 text-lg max-w-md mx-auto">
+            Découvrez mes projets personnels, mes expérimentations et mes univers.
+        </p>
+    </header>
+
+    <!-- Grille des liens -->
+    <main class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+
+        <!-- Carte 1 : Idle Champions -->
+        <a href="https://falcroft7.github.io/Idle-Champions/" target="_blank" class="block group">
+            <div class="bg-overlay card-hover border border-slate-700 rounded-lg p-8 h-48 flex flex-col justify-center items-center text-center cursor-pointer"
+                 style="background-image: url('https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=600');"> <!-- Image Gaming/Fantaisie -->
+                
+                <div class="relative-z">
+                    <div class="text-purple-400 mb-3 text-4xl group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-dungeon"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-white mb-1 transition-colors">Idle Champions</h2>
+                    <p class="text-slate-300 text-sm">Guide & Statistiques de jeu</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Carte 2 : Cartomancie -->
+        <a href="https://falcroft7.github.io/Cartomancie/" target="_blank" class="block group">
+            <div class="bg-overlay card-hover border border-slate-700 rounded-lg p-8 h-48 flex flex-col justify-center items-center text-center cursor-pointer"
+                 style="background-image: url('https://images.unsplash.com/photo-1600609842388-3e46c92d8e43?auto=format&fit=crop&q=80&w=600');"> <!-- Image Mystique -->
+                
+                <div class="relative-z">
+                    <div class="text-amber-400 mb-3 text-4xl group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <h2 class="text-2xl font-bold text-white mb-1 transition-colors">Cartomancie</h2>
+                    <p class="text-slate-300 text-sm">Exploration mystique & Tirages</p>
+                </div>
+            </div>
+        </a>
+
+        <!-- Carte 3 : GitHub (Lien suggéré) -->
+        <a href="https://github.com/falcroft7" target="_blank" class="block group md:col-span-2">
+            <div class="bg-slate-800/50 hover:bg-slate-800 border border-slate-700 hover:border-slate-500 rounded-lg p-6 flex items-center justify-between transition-all duration-300">
+                <div class="flex items-center gap-4">
+                    <i class="fab fa-github text-3xl text-white"></i>
+                    <div class="text-left">
+                        <h3 class="text-xl font-bold text-white">Mon GitHub</h3>
+                        <p class="text-slate-400 text-sm">Voir le code source de mes projets</p>
+                    </div>
+                </div>
+                <i class="fas fa-arrow-right text-slate-500 group-hover:text-white transition-colors"></i>
+            </div>
+        </a>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="mt-16 text-slate-500 text-sm text-center">
+        <p>&copy; 2025 Falcroft7. Tous droits réservés.</p>
+        <div class="mt-2 space-x-4">
+            <!-- Icones sociales décoratives (sans liens pour l'instant) -->
+            <span class="hover:text-amber-400 cursor-pointer transition-colors"><i class="fas fa-envelope"></i></span>
+            <span class="hover:text-amber-400 cursor-pointer transition-colors"><i class="fas fa-share-alt"></i></span>
+        </div>
+    </footer>
+
+    
+  <script src="homepage_script.js"></script>
+</body>
+</html>
