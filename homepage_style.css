@@ -44,6 +44,18 @@ h1, h2, h3 {
     background: rgba(15, 23, 42, 0.7); /* Eclaircit légèrement au survol */
 }
 
+/* Images pour boutons */
+.card-cartomancie {
+    background-image: url('Images/Cartomancie.png');
+    background-size: cover;
+    background-position: center;
+}
+.card-dnd {
+    background-image: url('Images/DnD.png');
+    background-size: cover;
+    background-position: center;
+}
+
 /* Contenu au dessus de l'overlay */
 .relative-z {
     position: relative;
