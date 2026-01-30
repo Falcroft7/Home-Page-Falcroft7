@@ -55,11 +55,17 @@ h1, h2, h3 {
     background-size: cover;
     background-position: center;
 }
+.card-shopping {
+    background-image: url('Images/DnD.png');
+    background-size: cover;
+    background-position: center;
+}
 
 /* Contenu au dessus de l'overlay */
 .relative-z {
     position: relative;
     z-index: 10;
 }
+
 
 
